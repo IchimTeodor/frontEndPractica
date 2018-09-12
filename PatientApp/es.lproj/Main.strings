@@ -1,0 +1,78 @@
+
+/* Class = "UINavigationItem"; title = "Review"; ObjectID = "0JY-fT-IBk"; */
+"0JY-fT-IBk.title" = "Review";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "2Yg-jy-GmO"; */
+"2Yg-jy-GmO.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "patient Touch"; ObjectID = "59I-HE-ytS"; */
+"59I-HE-ytS.text" = "patient Touch";
+
+/* Class = "UIButton"; normalTitle = " Remember username"; ObjectID = "6OY-rh-axW"; */
+"6OY-rh-axW.normalTitle" = " Remember username";
+
+/* Class = "UITextField"; placeholder = "UniqueCodeId"; ObjectID = "7yB-gw-k0t"; */
+"7yB-gw-k0t.placeholder" = "UniqueCodeId";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "AJr-Yf-rC6"; */
+"AJr-Yf-rC6.text" = "Name";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Aro-Z0-9cB"; */
+"Aro-Z0-9cB.title" = "Back";
+
+/* Class = "UILabel"; text = "EncounterID"; ObjectID = "Ced-xX-n5N"; */
+"Ced-xX-n5N.text" = "EncounterID";
+
+/* Class = "UITextField"; placeholder = "  Password"; ObjectID = "EaL-cZ-avk"; */
+"EaL-cZ-avk.placeholder" = "  Password";
+
+/* Class = "UITabBarItem"; title = "Hospital"; ObjectID = "FMe-zt-9jT"; */
+"FMe-zt-9jT.title" = "Hospital";
+
+/* Class = "UITextField"; placeholder = "Confirm password"; ObjectID = "N1F-O7-spn"; */
+"N1F-O7-spn.placeholder" = "Confirm password";
+
+/* Class = "UITextField"; placeholder = "  UniqueCodeId"; ObjectID = "T91-gl-M0Z"; */
+"T91-gl-M0Z.placeholder" = "  UniqueCodeId";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "TU7-gE-kN8"; */
+"TU7-gE-kN8.text" = "Name";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "V41-mF-I48"; */
+"V41-mF-I48.text" = "Phone";
+
+/* Class = "UILabel"; text = "Age"; ObjectID = "VLY-Lp-9UY"; */
+"VLY-Lp-9UY.text" = "Age";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Vwz-jv-85Q"; */
+"Vwz-jv-85Q.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Date of Birth"; ObjectID = "Xw1-0Z-0LT"; */
+"Xw1-0Z-0LT.text" = "Date of Birth";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "bOb-OE-hyo"; */
+"bOb-OE-hyo.title" = "Item";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "eQ9-cp-JSk"; */
+"eQ9-cp-JSk.text" = "Email";
+
+/* Class = "UILabel"; text = "You don't have an account?"; ObjectID = "fd0-nj-lQh"; */
+"fd0-nj-lQh.text" = "You don't have an account?";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "gac-8v-jFI"; */
+"gac-8v-jFI.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ksY-HD-iUi"; */
+"ksY-HD-iUi.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "nox-hm-kFv"; */
+"nox-hm-kFv.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "qfn-pg-X2I"; */
+"qfn-pg-X2I.text" = "Gender";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "tOk-Zw-g6g"; */
+"tOk-Zw-g6g.normalTitle" = "Sign up";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "zSJ-iW-Rez"; */
+"zSJ-iW-Rez.normalTitle" = "Next";

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeaderTableViewCell" rowHeight="46" id="KGk-i7-Jjw" customClass="HeaderTableViewCell" customModule="PatientApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="752" height="46"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="752" height="45.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gP8-PA-wnv">
+                        <rect key="frame" x="8" y="11" width="352" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="352" id="oCk-mm-6kd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiE-mN-rl2">
+                        <rect key="frame" x="699" y="6" width="33" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="Ugk-LB-ycK"/>
+                            <constraint firstAttribute="width" constant="33" id="XHD-aZ-0XC"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="NextIcon"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="FiE-mN-rl2" secondAttribute="bottom" constant="10.5" id="180-6R-4fy"/>
+                    <constraint firstAttribute="trailing" secondItem="FiE-mN-rl2" secondAttribute="trailing" constant="20" id="6Fk-OA-vEd"/>
+                    <constraint firstItem="FiE-mN-rl2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="8qZ-F4-98c"/>
+                    <constraint firstItem="FiE-mN-rl2" firstAttribute="leading" secondItem="gP8-PA-wnv" secondAttribute="trailing" constant="339" id="IGi-cK-Ihl"/>
+                    <constraint firstItem="gP8-PA-wnv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-12" id="Pxh-M8-PlO"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="gP8-PA-wnv" secondAttribute="bottom" constant="3" id="aGd-em-DNQ"/>
+                    <constraint firstItem="gP8-PA-wnv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="wbl-nF-06Y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="showButton" destination="FiE-mN-rl2" id="oQL-qs-aPA"/>
+                <outlet property="titleLabel" destination="gP8-PA-wnv" id="32t-Wz-Dgr"/>
+            </connections>
+            <point key="canvasLocation" x="-19" y="56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="NextIcon" width="512" height="512"/>
+    </resources>
+</document>

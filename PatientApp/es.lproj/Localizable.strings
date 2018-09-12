@@ -1,0 +1,15 @@
+/* 
+  File.strings
+  PatientApp
+
+  Created by Practica on 8/30/18.
+  Copyright © 2018 Practica. All rights reserved.
+*/
+
+"Medical Info" = "Información médica";
+"Appointments" = "Citas";
+"Results" = "Resultados";
+"Personal Notes" = "Notas personales";
+"Health Evolution" = "Evolución de la salud";
+"Login" = "Login";
+"Remember username" = "Recuerda";
