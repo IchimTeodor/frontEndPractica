@@ -13,4 +13,6 @@ func localize(_ key:String!) -> String{
         return ""
     }
     return NSLocalizedString(key, comment: "")
+    
+    
 }
