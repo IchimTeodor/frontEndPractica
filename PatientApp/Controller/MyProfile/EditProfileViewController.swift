@@ -1,5 +1,5 @@
 //
-//  MyProfileViewController.swift
+//  EditProfileViewController.swift
 //  PatientApp
 //
 //  Created by Practica on 10/9/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyProfileViewController: UIViewController {
+class EditProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

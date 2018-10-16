@@ -1,14 +1,14 @@
 //
-//  MyProfileViewController.swift
+//  PersonalNotesDetailsViewController.swift
 //  PatientApp
 //
-//  Created by Practica on 10/9/18.
+//  Created by Practica on 10/4/18.
 //  Copyright © 2018 Practica. All rights reserved.
 //
 
 import UIKit
 
-class MyProfileViewController: UIViewController {
+class PersonalNotesDetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
